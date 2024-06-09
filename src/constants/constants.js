@@ -8,6 +8,15 @@ export const projects = [
     visit: 'https://github.com/Dhyani01/Healthcare',
     id: 0,
   },
+    {
+    title: 'Drone Image Stitching',
+    description:"I developed public APIs for utilizing OpenODM software on EC2, enabling cloud-based image stitching for multiple users, moving the process from local computing to the cloud.",
+    image: '/images/2.png',
+    tags: ['Python', 'OpenODM','Flask', 'AWS EC2'],
+    source: 'https://drive.google.com/file/d/1ScS_rHtktSscV1v_V-wxQbOktKmA63_A/view',
+    visit: 'https://drive.google.com/file/d/1ScS_rHtktSscV1v_V-wxQbOktKmA63_A/view',
+    id: 1,
+  },
   {
     title: 'Plant Diseases Recognition',
     description: "Convolutional neural network to identify the disease present on a plant leaf. It consists of 38 classes of different healthy and diseased plant leaves.",
@@ -15,7 +24,7 @@ export const projects = [
       tags: ['Python', 'Tensorflow','Keras','numpy'],
     source: 'https://github.com/saroz014/Plant-Diseases-Recognition',
     visit: 'https://github.com/saroz014/Plant-Diseases-Recognition',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Political Biasness Detection',
@@ -24,23 +33,14 @@ export const projects = [
     tags: ['Python', 'NLP','SVM','LSTM'],
     source: 'https://github.com/Dhyani01',
     visit: 'https://github.com/Dhyani01',
-    id: 2,
-  },
-  {
-    title: 'Plagarism Analyzer',
-    description:"Cosine Similarity based plagarism analyser, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. ",
-    image: '/images/2.png',
-    tags: ['Python', 'Count-Vectorizer','Beautiful-Soup'],
-    source: 'https://github.com/Dhyani01/Plagiarism-Analyzer',
-    visit: 'https://github.com/Dhyani01/Plagiarism-Analyzer',
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: `2017-20`, text: 'Started my journey in B.Tech Computer science and learned about DSA then got to know about machine learning and decided to pursue masters', },
+  { year: `2017-20`, text: 'Started my journey learning CS fundamentals and later developed keen interest in core Alogrithms, OS leading me to pursue masters.', },
   { year: 2021, text: 'Qualified GATE, got offer from IIT Madras. Took admission in NSIT, Delhi', },
   { year: 2022, text: 'Did internship at valuematrix.ai AI based receuitement platform worked in AI-ML domain.', },
-  { year: 2023, text: 'Interned at Amazon in last mile delivery service worked with Java-Spring and AWS services. Joined Synopsys post internship.', },
-  { year: 2024, text: 'Currently working as Senior Software Engineer at Synopsys in formal verification and SAT solving space.', },
+  { year: 2023, text: 'Interned at Amazon in last mile delivery service worked on solving problems in logistics space. Joined Synopsys post internship.', },
+  { year: 2024, text: 'Currently working as Senior Software Engineer at Synopsys in formal verification and SAT solving area.', },
 ];
