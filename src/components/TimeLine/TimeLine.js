@@ -48,7 +48,7 @@ const Timeline = () => {
       <SectionText>
       Hey there,
       thanks for taking the time to visit my profile! <br/> 
-      I'm doing masters in computer science from NSIT, Delhi.<br/> I like doing projects that have some impact behind them. By solving new problems or writing some code if that benefits our surroundings then it is my idea of making our world a better place. 
+      I'm currently working as Senior Software Engineer at Synopsys. <br/> I have completed my education in computer science from NSIT, Delhi. I like solving real problems that benefits our surroundings it is my way of making our world a better place. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
