@@ -12,10 +12,10 @@ const Hero = (props) => (
           Hi, I'm Anurag Dhyani
         </SectionTitle>
         <SectionText>
-        Computer science student with excellent problem-solving skills and interest in machine learning, and backend programming, also well versed in data structures & algorithms. <br /> I am particularly interested in tackling problems in the intersection between computer vision and deep learning.
+        Computer science student with excellent problem-solving skills and interest in core CS Fundamentals and backend programming, also well versed in data structures & algorithms. <br /> In my professional experience I have worked on variety of real world problems.
         </SectionText>
         {/* <Button onClick={props.handleClick}>Curriculum Vitae</Button> */}
-        <form method="get" action="https://drive.google.com/file/d/18DDnYDAzy09EaoZ_VBeIR5iUXZhEOi5v/view?usp=sharing">
+        <form method="get" action="https://drive.google.com/file/d/18DDnYDAzy09EaoZ_VBeIR5iUXZhEOi5v/view">
     <Button type="submit">Curriculum Vitae</Button>
 </form>
       </LeftSection>
