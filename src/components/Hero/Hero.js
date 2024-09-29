@@ -15,7 +15,7 @@ const Hero = (props) => (
         Computer science student with excellent problem-solving skills and interest in core CS Fundamentals and backend programming, also well versed in data structures & algorithms. <br /> In my professional experience I have worked on variety of real world problems.
         </SectionText>
         {/* <Button onClick={props.handleClick}>Curriculum Vitae</Button> */}
-        <form method="get" action="https://drive.google.com/file/d/18DDnYDAzy09EaoZ_VBeIR5iUXZhEOi5v/view">
+        <form method="get" action="https://drive.google.com/file/d/1qH4k4Pgm6DEwsCn6j19m1b8hHOc1ANu2/view">
     <Button type="submit">Curriculum Vitae</Button>
 </form>
       </LeftSection>
